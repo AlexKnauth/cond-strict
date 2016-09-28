@@ -6,6 +6,12 @@
   '("base"
     ))
 
+(define build-deps
+  '("rackunit-lib"
+    "racket-doc"
+    "scribble-lib"
+    ))
+
 (define scribblings
   '(["scribblings/cond-strict.scrbl" ()]))
 

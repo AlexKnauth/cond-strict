@@ -5,7 +5,7 @@
                      cond-strict
                      ))
 
-@title{@racket[cond]: what it should have been}
+@title{cond: what it should have been}
 
 @defmodule[cond-strict]{
 This module provides @racket[cond/strict], a version of @racket[cond]
@@ -14,7 +14,7 @@ instead of returning @|void-const|.
 }
 
 @defform[#:literals (else =>)
-  (cond/strict condclause ...)
+  (cond/strict cond-clause ...)
   #:grammar ([cond-clause [test-expr then-body ...+]
                           [else then-body ...+]
                           [test-expr => proc-expr]
